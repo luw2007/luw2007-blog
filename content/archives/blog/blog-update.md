@@ -1,6 +1,6 @@
 Date: 2011-10-21
 Title:关于博客更新的想法
-Tags:cpyug, blog
+Tags:cpyug
 Slug:blog-update
 
 blog 不知道写什么. 天天都会看邮件列表和问答社区. 

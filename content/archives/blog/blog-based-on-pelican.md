@@ -1,6 +1,6 @@
 Date:2012-12-14
 Title:基于pelican 写blog
-Tags:pelican, blog
+Tags:pelican
 Slug:blog-based-on-pelican
 
 很久之前在dotcloud上面部署了一个pypress, 更新几篇之后就停歇了.
