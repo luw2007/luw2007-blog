@@ -13,7 +13,7 @@ TIMEZONE = 'Asia/Shanghai'
 DEFAULT_DATE_FORMAT = '%m-%d-%Y'
 
 PATH = ''
-THEME = 'Just-Read'
+THEME = 'tuxlite_tbs'
 OUTPUT_PATH = '../luw2007.github.com/'
 
 ARTICLE_DIR='archives'
@@ -32,12 +32,15 @@ REVERSE_ARCHIVE_ORDER = True
 
 
 # Blogroll
-#LINKS =  (
-#)
+LINKS =  (
+        ('python', 'http://python.org'),
+        ('douban.com','http://douban.com'),
+        ('42qu.com', 'http://42qu.com'),
+)
 
-# Social widget
+## Social widget
 #SOCIAL = (
-#          ('in 42qu', 'http://n9c_net.42qu.com'),
+#          ('in 42qu', 'http://42qu.n9c.net'),
 #)
 
 
