@@ -1,46 +1,35 @@
-# -*- coding: utf-8 -*- #
+AUTHOR = "luw2007"
+SITENAME = "luw2007-blog DEV"
+SITETITLE = "luw2007 blog Dev - Blogging about programming"
+SITEDESCRIPTION = "luw2007 Developer - Blogging about programming"
+SITEURL = "https://luw2007.github.io"
 
-AUTHOR = u'luw2007'
-TWITTER_USERNAME = u'luw2007'
+DEFAULT_LANG = "zh"
+TIMEZONE = "Asia/Shanghai"
+DEFAULT_DATE_FORMAT = "%m-%d-%Y"
 
-SITENAME = u'luw2007-blog <em>DEV<em>'
-SITETITLE = u'luw2007 blog Dev - Blogging about programming'
-SITEDESCRIPTION = u"luw2007 Developer - Blogging about programming "
-SITEURL = 'http://luw2007.github.com'
+PATH = "content"
+ARTICLE_PATHS = ["archives"]
+PAGE_PATHS = ["pages"]
+THEME = "themes/tuxlite_tbs"
+OUTPUT_PATH = "output"
+STATIC_PATHS = ["extra"]
+EXTRA_PATH_METADATA = {
+    "extra/googlee68dad2e8b5371e9.html": {"path": "googlee68dad2e8b5371e9.html"},
+    "extra/lxc-cgroup.html": {"path": "lxc-cgroup.html"},
+    "extra/tag-blog.html": {"path": "tag/blog.html"},
+    "extra/category-misc.html": {"path": "category/misc.html"},
+}
 
-DEFAULT_LANG = u'zh'
-TIMEZONE = 'Asia/Shanghai'
-DEFAULT_DATE_FORMAT = '%m-%d-%Y'
+FEED_DOMAIN = SITEURL
+FEED_ALL_RSS = "feeds/all.rss.xml"
+TAG_FEED_RSS = "feeds/{slug}.rss.xml"
 
-PATH = ''
-THEME = 'tuxlite_tbs'
-OUTPUT_PATH = '../luw2007.github.com/'
-
-ARTICLE_DIR='archives'
-PAGE_DIR='pages'
-
-FEED_DOMAIN = 'http://luw2007.github.com'
-FEED_RSS = 'feeds/all.rss.xml'
-TAG_FEED_RSS = 'feeds/%s.rss.xml'
-
-MARKUP = 'md'
-
-TAG_CLOUD_STEPS = 8
+MARKUP = ("md",)
 DEFAULT_PAGINATION = 9
-
 REVERSE_ARCHIVE_ORDER = True
 
-
-# Blogroll
-LINKS =  (
-        ('python', 'http://python.org'),
-        ('douban.com','http://douban.com'),
-        ('42qu.com', 'http://42qu.com'),
+LINKS = (
+    ("Python", "https://python.org"),
+    ("Douban", "https://douban.com"),
 )
-
-## Social widget
-#SOCIAL = (
-#          ('in 42qu', 'http://42qu.n9c.net'),
-#)
-
-

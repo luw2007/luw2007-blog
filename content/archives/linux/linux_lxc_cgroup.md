@@ -8,15 +8,15 @@ Slug:cgroup-lxc
 由python的沙箱引出虚拟化中的两个名词lxc和cgroup。
 
 ##cgroup(control groups)
-- [cgroup](http://en.wikipedia.org/wiki/cgroup), wikipedia 中的定义
-- [http://www.kernel.org/doc/Documentation/cgroups/](http://www.kernel.org/doc/Documentation/cgroups/), cgroups 官方文档
+- [cgroup](https://en.wikipedia.org/wiki/Cgroups)，Wikipedia 中的定义
+- [Linux cgroup v2 官方文档](https://docs.kernel.org/admin-guide/cgroup-v2.html)
 - [http://www.cnblogs.com/lisperl/tag/虚拟化技术](http://www.cnblogs.com/lisperl/tag/%E8%99%9A%E6%8B%9F%E5%8C%96%E6%8A%80%E6%9C%AF/), 这里对官方文档做了翻译
 
 ##Lxc(LinuX Containers)
 - [lxc](http://en.wikipedia.org/wiki/Lxc), wikipedia 中的定义
 - [Linux Containers - ArchWiki](http://wiki.archlinux.org/index.php/Linux_Containers)
 - [LXC - Community Ubuntu Documentation](https://help.ubuntu.com/community/LXC), See also
-- [How to LXC - this is one of the best documents available](http://lxc.teegra.net/), 比较详细的lxc 的介绍手册
+- [LXC 官方文档](https://linuxcontainers.org/lxc/documentation/)
 - [LXC - Gentoo Wiki](wiki.gentoo.org/wiki/LXC)
 - [LXC - Debian Wiki](http://wiki.debian.org/LXC)
 - [LXC - openSUSE](http://en.opensuse.org/LXC)

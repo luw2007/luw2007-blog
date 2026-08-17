@@ -6,10 +6,10 @@ Slug:cefpython-python-bindings-for-CEF
 手头有个pyQT的项目里面使用QtWebKit, 用于在客户端中展示网页内容。虽然使用QtWebkit实现了基本功能。但是存在不少问题。
 QtWebKit打开页面速度慢，一些js代码无法正常运行，需要自己去实现的东西太多。由于时间有点紧，所以就准备找第三方实现的库来做。
 
-最后采用CEF([Chromium Embedded Framework](http://code.google.com/p/chromiumembedded/))。
-这个项目稳定(2008开始)，[社区](http://www.magpcss.org/ceforum/)活跃。而且还有python实现cefpython。
+最后采用 [Chromium Embedded Framework](https://chromiumembedded.github.io/cef/)（CEF）。
+这个项目稳定（2008 开始），源码托管在 [chromiumembedded/cef](https://github.com/chromiumembedded/cef)，并有 Python 实现 cefpython。
 
-[cefpython](http://code.google.com/p/cefpython/) 使用cython 实现与libcef之前的交互。项目2012-05-08提交0.11，到最近2012-12-27提交0.51版本的cef1。
+[cefpython](https://github.com/cztomczak/cefpython) 使用 Cython 实现与 libcef 的交互。项目 2012-05-08 提交 0.11，到 2012-12-27 提交 0.51 版本的 cef1。
 
 使用New BSD License 开源协议。目前只有czarek.tomczak一人维护。
 cefpython项目分为cef1, cef3 。cef1的完成度比较高，cef3可用的api太少。
